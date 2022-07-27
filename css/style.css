@@ -53,6 +53,10 @@ nav.navbar-transparente {
 	.btn-custom {
 		margin: 10px 15px;
 	}
+    a.text-dark {
+        padding: 3px ;
+        border-radius: 20px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -74,4 +78,10 @@ nav.navbar-transparente {
 	h1 {
 		font-size: 6em;
 	}
+}
+
+a.text-dark {
+    margin-top: 7px;
+    padding: 1px ;
+    border-radius: 20px;
 }
