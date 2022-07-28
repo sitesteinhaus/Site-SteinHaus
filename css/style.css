@@ -4,9 +4,13 @@ html, body, #home {
 }
 
 body {
-			
+	max-width: 540px;
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
+}
+
+#fundo{
+	width: 100%;	
 }
 
 /* Barra de navegação
@@ -35,10 +39,7 @@ nav.navbar-transparente {
 	margin: 12px 15px;
 }
 
-body{
-	background: url(../imagens1/217428035_247574230510527_3356159540148754915_n_adobe_express.svg) no-repeat;
-	width: ;
-}
+
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
