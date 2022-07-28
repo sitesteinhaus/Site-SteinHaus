@@ -4,9 +4,7 @@ html, body, #home {
 }
 
 body {
-	background: url(../imagens1/chopp.jpg),
-				url(../imagens/ruido.png),
-				linear-gradient(50deg,#ff4169,#7c26f8);
+			
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
 }
@@ -35,6 +33,11 @@ nav.navbar-transparente {
 	width: 1px;
 	background: white;
 	margin: 12px 15px;
+}
+
+body{
+	background: url(../imagens1/217428035_247574230510527_3356159540148754915_n_adobe_express.svg) no-repeat;
+	width: ;
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
