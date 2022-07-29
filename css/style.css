@@ -16,6 +16,18 @@ body {
 
 }
 
+img .img-carrousel{
+	background-repeat: no-repeat;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
+.fundo-carrousel{
+	background-color: #9bf0e1;
+}
+
 
 /* Barra de navegação
 -----------------------------*/
