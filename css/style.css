@@ -3,10 +3,17 @@ html, body, #home {
 	overflow-x: hidden;
 }
 
+HEAD
 
 .conteudo-1 {
 	background-size: cover;
-	background-position: center;
+	background-position: center;}
+
+body {
+	
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+
 }
 
 
@@ -36,6 +43,9 @@ nav.navbar-transparente {
 	margin: 12px 15px;
 }
 
+#home{
+	background-color: #9bf0e1;
+}
 
 
 /* Extra small devices (portrait phones, less than 576px)*/
