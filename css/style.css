@@ -3,15 +3,12 @@ html, body, #home {
 	overflow-x: hidden;
 }
 
-body {
-	max-width: 540px;
-	background-attachment: fixed;
-	font-family: Helvetica,Arial,sans-serif;
+
+.conteudo-1 {
+	background-size: cover;
+	background-position: center;
 }
 
-#fundo{
-	width: 100%;	
-}
 
 /* Barra de navegação
 -----------------------------*/
