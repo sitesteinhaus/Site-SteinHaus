@@ -43,8 +43,7 @@ nav.navbar-transparente {
 }
 
 .img-fluid{
-	
-	padding-left: 727px;
+	padding-top: 100px;
 }
 
 
@@ -73,6 +72,12 @@ img .img-carrousel{
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
+	#conteudo-2{
+		width: 320px;
+		height: 450px;
+		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
+		background-size: cover;
+	}
 }
 
 @media (min-width: 320.98px) and (max-width: 374.98px){
@@ -80,6 +85,12 @@ img .img-carrousel{
 		width: 375px;
 		height: 500px;
 		background-image: url('../IMG/fundo1-1440.svg');
+		background-size: cover;
+	}
+	#conteudo-2{
+		width: 375px;
+		height: 500px;
+		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
 	}
 }
@@ -91,6 +102,12 @@ img .img-carrousel{
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
+	#conteudo-2{
+		width: 425px;
+		height: 550px;
+		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
+		background-size: cover;
+	}
 }
 
 @media (min-width: 425px) and (max-width: 505px){
@@ -98,6 +115,12 @@ img .img-carrousel{
 		width: 505px;
 		height: 550px;
 		background-image: url('../IMG/fundo1-1440.svg');
+		background-size: cover;
+	}
+	#conteudo-2{
+		width: 505px;
+		height: 550px;
+		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
 	}
 }
@@ -117,7 +140,14 @@ img .img-carrousel{
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
+	#conteudo-2{
+		width: 575px;
+		height: 550px;
+		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
+		background-size: cover;
+	}
 }
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -128,6 +158,12 @@ img .img-carrousel{
 		width: 768px;
 		height: 733px;
 		background-image: url('../IMG/fundo1-1440.svg');
+		background-size: cover;
+	}
+	#conteudo-2{
+		width: 768px;
+		height: 733px;
+		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
 	}
 	
@@ -146,6 +182,12 @@ img .img-carrousel{
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
+	#conteudo-2{
+		width: 991px;
+		height: 733px;
+		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
+		background-size: cover;
+	}
 
 }
 
@@ -158,6 +200,12 @@ img .img-carrousel{
 		width: 1199px;
 		height: 1100px;
 		background-image: url('../IMG/fundo1-1440.svg');
+		background-size: cover;
+	}
+	#conteudo-2{
+		width: 1199px;
+		height: 1100px;
+		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
 	}
 }
@@ -173,10 +221,20 @@ img .img-carrousel{
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
+	#conteudo-2{
+		width: 1440px;
+		height: 1100px;
+		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
+		background-size: cover;
+	}
 }
+
+
 
 a.text-dark {
     margin-top: 7px;
     padding: 1px ;
     border-radius: 20px;
 }
+
+
