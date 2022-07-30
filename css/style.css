@@ -81,6 +81,7 @@ img .img-carrousel{
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
+	
 }
 
 @media (min-width: 375px) and (max-width: 424.98px){
@@ -179,3 +180,6 @@ a.text-dark {
     padding: 1px ;
     border-radius: 20px;
 }
+
+
+
