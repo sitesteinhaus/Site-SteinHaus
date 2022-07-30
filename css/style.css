@@ -87,12 +87,14 @@ img .img-carrousel{
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
+
 	#conteudo-2{
 		width: 375px;
 		height: 500px;
 		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
 	}
+
 }
 
 @media (min-width: 375px) and (max-width: 424.98px){
