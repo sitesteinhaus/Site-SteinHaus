@@ -4,29 +4,12 @@ html, body, #home {
 }
 
 HEAD
-
-.conteudo-1 {
-	background-size: cover;
-	background-position: center;}
-
 body {
 	
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
-
 }
 
-img .img-carrousel{
-	background-repeat: no-repeat;
-}
-
-.carousel-control-next, .carousel-control-prev {
-	width: 5%;
-}
-
-.fundo-carrousel{
-	background-color: #9bf0e1;
-}
 
 
 /* Barra de navegação
@@ -60,28 +43,93 @@ nav.navbar-transparente {
 }
 
 
+
+
+
+
+
+/* Carrossel 
+--------------------------------------------*/ 
+img .img-carrousel{
+	background-repeat: no-repeat;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
+.fundo-carrousel{
+	background-color: #9bf0e1;
+}
+
+@media (max-width: 320px) {
+	#conteudo-1{
+		width: 320px;
+		height: 450px;
+		background-image: url('../IMG/fundo1-1440.svg');
+		background-size: cover;
+	}
+}
+
+@media (min-width: 320.98px) and (max-width: 374.98px){
+	#conteudo-1{
+		width: 375px;
+		height: 500px;
+		background-image: url('../IMG/fundo1-1440.svg');
+		background-size: cover;
+	}
+}
+
+@media (min-width: 375px) and (max-width: 424.98px){
+	#conteudo-1{
+		width: 425px;
+		height: 550px;
+		background-image: url('../IMG/fundo1-1440.svg');
+		background-size: cover;
+	}
+}
+
+@media (min-width: 425px) and (max-width: 505px){
+	#conteudo-1{
+		width: 505px;
+		height: 550px;
+		background-image: url('../IMG/fundo1-1440.svg');
+		background-size: cover;
+	}
+}
+
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 	#logo{
 		width: 150px;
 		padding-left: 15px;
 	}
-	#fundo-1 {
-		max-width: 575px;
-		min-width: 320px;
-		object-position: center;
 }
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+	#conteudo-1{
+		width: 575px;
+		height: 550px;
+		background-image: url('../IMG/fundo1-1440.svg');
+		background-size: cover;
+	}
 }
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 	#logo{
 		width: 180px;
 	}
-	#fundo-1 {
-		max-width: 767px;
-		min-width: 576px;
+	#conteudo-1{
+		width: 768px;
+		height: 550px;
+		background-image: url('../IMG/fundo1-1440.svg');
+		background-size: cover;
+	}
+	
 }
-}
+
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -89,6 +137,7 @@ nav.navbar-transparente {
 	#logo{
 		width: 180px;
 	}
+
 }
 
 /* Large devices (desktops, 992px and up)*/
