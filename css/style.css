@@ -46,6 +46,27 @@ nav.navbar-transparente {
 	padding-top: 100px;
 }
 
+#nav-principal{
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#fundo-cardapio{
+	background-image: url(../IMG/fundo-cardapio.svg);
+	
+}
+
+#links-cardapio{
+	text-align: center;
+	margin-top: 140px;
+	
+}
+
+.altura-imagens{
+	padding: 5px;
+
+}
+
 
 
 /* Carrossel 
@@ -78,6 +99,14 @@ img .img-carrousel{
 		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
 	}
+	.altura-imagens{
+		padding: 5px;
+		margin-left: -15px;
+		max-width: 320px;
+		justify-content: center;
+		
+	}
+
 }
 
 @media (min-width: 320.98px) and (max-width: 374.98px){
