@@ -111,6 +111,12 @@ img .img-carrousel{
 		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
 	}
+	#conteudo-3{
+		width: 320px;
+		height: 450px;
+		background-image: url('../IMG/fundo3.svg');
+		background-size: cover;
+	}
 	.altura-imagens{
 		padding: 5px;
 		margin-left: -15px;
@@ -121,52 +127,52 @@ img .img-carrousel{
 
 }
 
-@media (min-width: 320.98px) and (max-width: 374.98px){
+@media (min-width: 320.98px){
 	#conteudo-1{
-		width: 375px;
+		width: auto;
 		height: 500px;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
 
 	#conteudo-2{
-		width: 375px;
+		width: auto;
 		height: 500px;
 		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
 	}
+	#conteudo-3{
+		width: auto;
+		height: 500px;
+		background-image: url('../IMG/fundo3.svg');
+		background-size: cover;
+	}
+	
 
 }
 
-@media (min-width: 375px) and (max-width: 424.98px){
+@media (min-width: 375px) {
 	#conteudo-1{
-		width: 425px;
+		width: auto;
 		height: 550px;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
 	#conteudo-2{
-		width: 425px;
+		width: auto;
 		height: 550px;
 		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
 	}
+	#conteudo-3{
+		width: auto;
+		height: 550px;
+		background-image: url('../IMG/fundo3.svg');
+		background-size: cover;
+	}
+	
 }
 
-@media (min-width: 425px) and (max-width: 505px){
-	#conteudo-1{
-		width: 505px;
-		height: 550px;
-		background-image: url('../IMG/fundo1-1440.svg');
-		background-size: cover;
-	}
-	#conteudo-2{
-		width: 505px;
-		height: 550px;
-		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
-		background-size: cover;
-	}
-}
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
@@ -176,81 +182,109 @@ img .img-carrousel{
 	}
 }
 
-@media (min-width: 425px) and (max-width: 575.98px) {
+@media (min-width: 425px)  {
 	#conteudo-1{
-		width: 575px;
+		width: auto;
 		height: 550px;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
 	#conteudo-2{
-		width: 575px;
+		width: auto;
 		height: 550px;
 		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
+		background-size: cover;
+	}
+	#conteudo-3{
+		width: auto;
+		height: 550px;
+		background-image: url('../IMG/fundo3.svg');
 		background-size: cover;
 	}
 }
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) {
 	#logo{
 		width: 180px;
 	}
 	#conteudo-1{
-		width: 768px;
+		width: auto;
 		height: 733px;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
 	#conteudo-2{
-		width: 768px;
+		width: auto;
 		height: 733px;
 		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
 	}
+	#conteudo-3{
+		width: auto;
+		height: 733px;
+		background-image: url('../IMG/fundo3.svg');
+		background-size: cover;
+	}
+
 	
 }
 
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px)  {
 
 	#logo{
 		width: 180px;
 	}
 	#conteudo-1{
-		width: 991px;
+		width: auto;
 		height: 733px;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
 	#conteudo-2{
-		width: 991px;
+		width: auto;
 		height: 733px;
 		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
+		background-size: cover;
+	}
+	#conteudo-3{
+		width: auto;
+		height: 733px;
+		background-image: url('../IMG/fundo3.svg');
 		background-size: cover;
 	}
 
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) {
 	#logo{
 		width: 200px;
 	}
 	#conteudo-1{
-		width: 1199px;
+		width: auto;
 		height: 1100px;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
 	#conteudo-2{
-		width: 1199px;
+		width: auto;
 		height: 1100px;
-		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
+		background-image: url('../IMG/testefundo2.svg');
 		background-size: cover;
+		border-style: none;
 	}
+	#conteudo-3{
+		width: auto;
+		height: 1100px;
+		background-image: url('../IMG/fundo3.svg');
+		background-size: cover;
+		border-style: none;
+	}
+	
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -259,15 +293,21 @@ img .img-carrousel{
 		width: 200px;
 	}
 	#conteudo-1{
-		width: 1440px;
+		width: auto;
 		height: 1100px;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
 	#conteudo-2{
-		width: 1440px;
+		width: auto;
 		height: 1100px;
-		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
+		background-image: url('../IMG/testefundo2.svg');
+		background-size: cover;
+	}
+	#conteudo-3{
+		width: auto;
+		height: 1100px;
+		background-image: url('../IMG/fundo3.svg');
 		background-size: cover;
 	}
 }
@@ -281,3 +321,8 @@ a.text-dark {
 }
 
 
+#fundopreto{
+	background-image: url(../IMG/fundo1-1440.svg);
+	width: 320px;
+	height: 500px;
+}
