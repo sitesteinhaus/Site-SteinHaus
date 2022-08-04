@@ -321,8 +321,8 @@ a.text-dark {
 }
 
 
-#fundopreto{
-	background-image: url(../IMG/fundo1-1440.svg);
-	width: 320px;
-	height: 500px;
+
+.btn{
+	margin-top: 85px;
+
 }
