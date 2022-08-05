@@ -7,9 +7,10 @@ HEAD
 body {
 	
 	background-attachment: fixed;
-	font-family: Helvetica,Arial,sans-serif;
+	font-family: 'Lora', serif;
+	
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 
 /* Barra de navegação
@@ -46,7 +47,7 @@ nav.navbar-transparente {
 
 #nav-principal{
 	padding: 20px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Lora', serif;
 }
 
 
@@ -60,36 +61,38 @@ nav.navbar-transparente {
 	padding: 5px;
 
 }
-
-div.itens h2{
-	font-size: large;
+h1 {
+	font-family: 'Lora', serif;
+}
+ h2{
+	font-family: 'Lora', serif;
 }
 
-div.itens p{
-	font-size: medium;
+ p{
+	font-family: 'Lora', serif;
 }
 
 div.itens a{
 	color: #000;
-	
+	text-decoration: none;
 	font-size: small;
 }
 
 /* Carrossel 
 --------------------------------------------*/ 
+@media (max-width:1440px) {
 .carousel-inner > .carousel-item > img {
-	width: 1000px;
-	height: 100%; 
+	width: 90vh;
+	height: 90vh; 
 	padding-bottom: 35px;
+	padding-top: 90px;
   }
-
+}
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
 }
 
-.fundo-carrousel{
-	background-color: #9bf0e1;
-}
+
 
 /* Media queries 
 --------------------------------------------*/  
@@ -120,6 +123,7 @@ div.itens a{
 		justify-content: center;
 		
 	}
+
 
 }
 
