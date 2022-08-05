@@ -52,6 +52,7 @@ nav.navbar-transparente {
 
 #fundo-cardapio{
 	background: url(/IMG/fundo-cardapio.svg);
+	margin-top: 80px;
 }
 
 #nav-principal{
@@ -70,6 +71,22 @@ nav.navbar-transparente {
 	padding: 5px;
 
 }
+
+.button{
+	margin-bottom: -70px;
+	
+}
+
+.button1{
+	margin-top: 0px;
+	margin-bottom: -70px;
+}
+
+.button3{
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
 h1 {
 	font-family: 'Lora', serif;
 }
@@ -334,4 +351,9 @@ a.text-dark {
 .btn{
 	margin-top: 85px;
 
+}
+
+.itens{
+	padding: 30px;
+	
 }
