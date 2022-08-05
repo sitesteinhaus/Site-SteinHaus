@@ -10,6 +10,10 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 }
 
+h1{
+	text-align: center;
+}
+
 
 
 /* Barra de navegação
@@ -42,7 +46,9 @@ nav.navbar-transparente {
 	background-color: #9bf0e1;
 }
 
-
+#fundo-cardapio{
+	background: url(/IMG/fundo-cardapio.svg);
+}
 
 #nav-principal{
 	padding: 20px;
