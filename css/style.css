@@ -87,6 +87,47 @@ nav.navbar-transparente {
 	margin-bottom: 40px;
 }
 
+a.text-dark {
+    margin-top: 7px;
+    padding: 1px ;
+    border-radius: 20px;
+}
+
+.itens{
+	padding: 14px;
+}
+
+.btn{
+	margin-top: 85px;
+
+}
+
+.h1-cardapio{
+	font-size: x-large;
+}
+
+.p-cardapio{
+	margin: 0;
+}
+
+.imagen-cardapio{
+	float: left;
+}
+
+.conteudos-cardapio{
+	float: right;
+	margin-right: 20px;
+}
+
+.links-cardapio{
+	
+}
+
+a .btn{
+	background-color: rgba(0, 0, 0, 0.425);
+	color: #fff;
+}
+
 h1 {
 	font-family: 'Lora', serif;
 }
@@ -336,24 +377,4 @@ div.itens a{
 		background-image: url('../IMG/fundo3.svg');
 		background-size: cover;
 	}
-}
-
-
-
-a.text-dark {
-    margin-top: 7px;
-    padding: 1px ;
-    border-radius: 20px;
-}
-
-
-
-.btn{
-	margin-top: 85px;
-
-}
-
-.itens{
-	padding: 30px;
-	
 }
