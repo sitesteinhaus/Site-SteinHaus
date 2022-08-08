@@ -67,6 +67,10 @@ nav.navbar-transparente {
 	
 }
 
+#titulos-cardapio{
+	font-style: italic;
+}
+
 .altura-imagens{
 	padding: 5px;
 
@@ -104,6 +108,7 @@ a.text-dark {
 
 .h1-cardapio{
 	font-size: x-large;
+	
 	
 }
 
