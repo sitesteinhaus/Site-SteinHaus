@@ -104,10 +104,13 @@ a.text-dark {
 
 .h1-cardapio{
 	font-size: x-large;
+	
 }
 
 .p-cardapio{
+	font-size: smaller;
 	margin: 0;
+	
 }
 
 .imagen-cardapio{
@@ -119,9 +122,7 @@ a.text-dark {
 	margin-right: 20px;
 }
 
-.links-cardapio{
-	
-}
+
 
 a .btn{
 	background-color: rgba(0, 0, 0, 0.425);
