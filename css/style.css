@@ -119,6 +119,7 @@ a.text-dark {
 	font-size: x-large;
 	margin-right: 90px;
 	
+	
 }
 
 .p-cardapio{
@@ -133,7 +134,7 @@ a.text-dark {
 
 .conteudos-cardapio{
 	float: right;
-	margin-right: 35px;
+	margin-right: 20px;
 	margin-top: -15px;
 }
 
