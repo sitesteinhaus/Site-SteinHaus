@@ -76,6 +76,15 @@ nav.navbar-transparente {
 
 }
 
+.flex-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-item{
+	flex-grow: 8;
+}
+
 .button{
 	margin-bottom: -70px;
 	
@@ -108,12 +117,12 @@ a.text-dark {
 
 .h1-cardapio{
 	font-size: x-large;
-	
+	margin-right: 90px;
 	
 }
 
 .p-cardapio{
-	font-size: smaller;
+	font-size: 11px;
 	margin: 0;
 	
 }
@@ -124,7 +133,8 @@ a.text-dark {
 
 .conteudos-cardapio{
 	float: right;
-	margin-right: 20px;
+	margin-right: 35px;
+	margin-top: -15px;
 }
 
 
