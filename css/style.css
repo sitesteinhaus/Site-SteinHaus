@@ -166,14 +166,14 @@ div.itens a{
 @media (max-width:1440px) {
 .carousel-inner > .carousel-item > img {
 	width: 90vh;
-	height: 90vh; 
-	padding-bottom: 35px;
+	height: 65vh; 
 	padding-top: 90px;
   }
 }
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
 }
+
 
 
 
