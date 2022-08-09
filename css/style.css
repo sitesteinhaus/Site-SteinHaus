@@ -165,7 +165,7 @@ div.itens a{
 --------------------------------------------*/ 
 @media (max-width:1440px) {
 .carousel-inner > .carousel-item > img {
-	width: 90vh;
+	width: 100vh;
 	height: 65vh; 
 	padding-top: 90px;
   }
@@ -205,6 +205,9 @@ div.itens a{
 		max-width: 320px;
 		justify-content: center;
 		
+	}
+	#cardapio img {
+		max-width: 305px;
 	}
 
 
