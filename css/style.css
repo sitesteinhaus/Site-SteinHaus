@@ -167,7 +167,10 @@ div.itens a{
 	text-decoration: none;
 	font-size: small;
 }
-
+footer h2 {
+	font-family: lora;
+	font-style: italic;
+}
 /* Carrossel 
 --------------------------------------------*/ 
 @media (max-width:1440px) {
@@ -204,6 +207,7 @@ footer h2 {
 	text-decoration: underline;
 }
 footer svg {
+	margin-top: 1vh;
 	margin-right: 1vh;
 }
 footer a {
@@ -243,7 +247,13 @@ footer a {
 	#cardapio img {
 		max-width: 305px;
 	}
-
+	footer img {
+		max-width: 50px;
+		margin-top: 2vh;
+	}
+	footer h2 {
+		font-size: large;
+	}
 
 }
 
