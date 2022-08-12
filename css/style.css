@@ -71,8 +71,20 @@ nav.navbar-transparente {
 	font-style: italic;
 }
 
-.botoes{
+.cardapio{
+	margin-top: 20px;
+	margin-left: 10px;
 	
+}
+
+.itens-cardapio{
+	padding: 5px;
+}
+
+.centro{
+
+	margin-left: 43px;
+
 }
 
 .altura-imagens{
@@ -122,8 +134,6 @@ a.text-dark {
 .h1-cardapio{
 	font-size: x-large;
 	margin-right: 90px;
-	
-	
 }
 
 
