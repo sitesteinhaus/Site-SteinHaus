@@ -181,8 +181,35 @@ div.itens a{
 	width: 5%;
 }
 
+footer {
+	background-color: #000;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+footer p {
+	color: #fff;
+	font-style: italic;
+	font-size: small;
+	text-align: center;
+}
+footer i{
+	color: #fff;
+}
 
-
+footer h2 {
+	color: #fff;
+	font-style: bold italic;
+	font-size: x-large;
+	text-align: center;
+	text-decoration: underline;
+}
+footer svg {
+	margin-right: 1vh;
+}
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
 
 /* Media queries 
 --------------------------------------------*/  
@@ -239,6 +266,12 @@ div.itens a{
 		height: 500px;
 		background-image: url('../IMG/fundo3.svg');
 		background-size: cover;
+	}
+
+
+	footer img {
+		max-width: 50px;
+		margin-top: 2vh;
 	}
 	
 
