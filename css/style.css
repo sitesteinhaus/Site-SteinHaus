@@ -172,8 +172,12 @@ footer h2 {
 .carousel-inner > .carousel-item > img {
 	width: 100vh;
 	height: 65vh; 
-	padding-top: 90px;
+	padding-top: 65px;
+	
   }
+.first-image >.carousel-inner > .carousel-item > img  {
+	padding-top: 90px;
+ }
 }
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
@@ -228,8 +232,9 @@ footer a {
 	}
 	#conteudo-3{
 		width: 320px;
-		height: 450px;
+		height: 550px;
 		background-image: url('../IMG/fundo3.svg');
+		background-position: center center;
 		background-size: cover;
 	}
 	.altura-imagens{
@@ -288,18 +293,23 @@ footer a {
 		height: 550px;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
+		background-position: center center;
 	}
 	#conteudo-2{
 		width: auto;
 		height: 550px;
 		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
+		background-position: center center;
+		
 	}
 	#conteudo-3{
 		width: auto;
 		height: 550px;
 		background-image: url('../IMG/fundo3.svg');
 		background-size: cover;
+		background-position: center center;
+		
 	}
 	
 }
@@ -319,18 +329,21 @@ footer a {
 		height: 550px;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
+		background-position: center center;
 	}
 	#conteudo-2{
 		width: auto;
 		height: 550px;
 		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
+		background-position: center center;
 	}
 	#conteudo-3{
 		width: auto;
 		height: 550px;
 		background-image: url('../IMG/fundo3.svg');
 		background-size: cover;
+		background-position: center center;
 	}
 }
 
@@ -374,18 +387,21 @@ footer a {
 		height: 733px;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
+		background-position: center center;
 	}
 	#conteudo-2{
 		width: auto;
 		height: 733px;
 		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
+		background-position: center center;
 	}
 	#conteudo-3{
 		width: auto;
 		height: 733px;
 		background-image: url('../IMG/fundo3.svg');
 		background-size: cover;
+		background-position: center center;
 	}
 
 }
