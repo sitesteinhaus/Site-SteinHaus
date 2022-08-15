@@ -46,11 +46,13 @@ nav.navbar-transparente {
 	margin: 12px 15px;
 }
 
-
-
 #fundo-cardapio{
 	background: url(/IMG/fundo-cardapio.svg);
 	margin-top: 80px;
+}
+
+#titulo-cardapio{
+	
 }
 
 #nav-principal{
@@ -58,9 +60,19 @@ nav.navbar-transparente {
 	font-family: 'Lora', serif;
 }
 
+.centro-seletores{
+	text-align: center;
+	padding: 35px;
+}
 
+.itens-cardapio{
+	padding: 20px;
+}
 
-
+.itens-cardapio-1{
+	padding: 20px;
+	max-width: 375px;
+}
 
 .altura-imagens{
 	padding: 5px;
@@ -96,6 +108,7 @@ a.text-dark {
     padding: 1px ;
     border-radius: 20px;
 }
+
 #nav-principal a:hover {
 	color: #e8b544;
 
@@ -113,34 +126,24 @@ a.text-dark {
 	margin-top: 85px;
 
 }
-
 .h1-cardapio{
 	font-size: x-large;
 	margin-right: 90px;
-	
-	
+		
 }
-
-
-
 .p-cardapio{
 	font-size: 11px;
 	margin: 0;
 	
 }
-
 .imagen-cardapio{
 	float: left;
 }
-
 .conteudos-cardapio{
 	float: right;
 	margin-right: 20px;
 	margin-top: -15px;
 }
-
-
-
 a .btn{
 	background-color: rgba(0, 0, 0, 0.425);
 	color: #fff;
@@ -237,6 +240,7 @@ footer a {
 		background-position: center center;
 		background-size: cover;
 	}
+	
 	.altura-imagens{
 		padding: 5px;
 		margin-left: -15px;
