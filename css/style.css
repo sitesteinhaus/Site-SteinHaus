@@ -51,9 +51,6 @@ nav.navbar-transparente {
 	margin-top: 80px;
 }
 
-#titulo-cardapio{
-	
-}
 
 #nav-principal{
 	padding: 20px;
@@ -65,14 +62,9 @@ nav.navbar-transparente {
 	padding: 35px;
 }
 
-.itens-cardapio{
-	padding: 20px;
-}
 
-.itens-cardapio-1{
-	padding: 20px;
-	max-width: 375px;
-}
+
+
 
 .altura-imagens{
 	padding: 5px;
@@ -256,6 +248,7 @@ footer a {
 		font-style: italic ;
 		color: #000;
 		font-size: 2em;
+		margin-top: 5px;
 	}
 	footer img {
 		max-width: 50px;
