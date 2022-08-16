@@ -52,9 +52,12 @@ nav.navbar-transparente {
 	margin-top: 80px;
 }
 
+
 #titulo-cardapio{
 	padding: 10px;
 }
+
+
 
 #nav-principal{
 	padding: 20px;
@@ -251,6 +254,7 @@ footer a {
 		font-style: italic ;
 		color: #000;
 		font-size: 2em;
+		margin-top: 5px;
 	}
 	footer img {
 		max-width: 50px;
