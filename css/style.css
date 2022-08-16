@@ -76,6 +76,11 @@ nav.navbar-transparente {
 
 }
 
+#o-que-voce-deseja{
+	text-align: center;
+	padding: 10px;
+	
+}
 
 .flex-container{
 	display: flex;
