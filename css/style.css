@@ -252,9 +252,14 @@ footer a {
 	}
 	#cardapio h1 {
 		font-style: italic ;
-		color: #000;
+		color: #fff;
 		font-size: 2em;
 		margin-top: 5px;
+		background-color: rgba(0,0,0,0.90);
+		background-clip: content-box;
+		
+		
+		
 	}
 	footer img {
 		max-width: 50px;
