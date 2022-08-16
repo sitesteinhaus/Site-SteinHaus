@@ -53,7 +53,7 @@ nav.navbar-transparente {
 }
 
 #titulo-cardapio{
-	
+	padding: 10px;
 }
 
 #nav-principal{
@@ -63,22 +63,16 @@ nav.navbar-transparente {
 
 .centro-seletores{
 	text-align: center;
-	padding: 35px;
+	margin-top: 50px;
+	margin-bottom: 40px;
 }
 
-.itens-cardapio{
-	padding: 20px;
-}
-
-.itens-cardapio-1{
-	padding: 20px;
-	max-width: 375px;
-}
 
 .altura-imagens{
 	padding: 5px;
 
 }
+
 
 .flex-container{
 	display: flex;
