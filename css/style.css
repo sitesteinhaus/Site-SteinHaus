@@ -25,7 +25,7 @@ h1{
 -----------------------------*/
 nav.navbar-transparente {
 	padding: 15px 0px;
-	background: rgba(0,0,0,0.90);
+	background: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -78,8 +78,27 @@ nav.navbar-transparente {
 
 #o-que-voce-deseja{
 	text-align: center;
+	margin: 10px 10px 0 10px;
 	padding: 10px;
-	
+	background-color: rgba(0, 0, 0, 0.904);
+		
+}
+
+.botoes-select{
+	text-align: center;
+	color: #fff;
+	background-color: rgba(15, 15, 15, 0.9);
+}
+
+select{
+	font-family: 'Lora', serif;
+	font-size: larger;
+	font-style: italic;
+	padding: 0 60px 0 60px;
+	border: none;
+	appearance: none;
+	background-color: rgba(22, 22, 22, 0.9);
+	color: #fff;
 }
 
 .flex-container{
