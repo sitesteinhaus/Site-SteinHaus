@@ -80,19 +80,33 @@
   </nav>
 </header><!-- Fim do Cabecalho -->
 <body id="fundo-cardapio">
-    <div id="o-que-voce-deseja">
-      <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-        <option selected class="botoes-select">O que voce deseja</option>
-        <option value="1" class="botoes-select">À la carte</option>
-        <option value="2" class="botoes-select">Porções</option>
-        <option value="3" class="botoes-select">Cervejas</option>
-        <option value="4" class="botoes-select">Vinhos e espumantes</option>
-        <option value="5" class="botoes-select">Sucos</option>
-        <option value="6" class="botoes-select">Destilados</option>
-        <option value="7" class="botoes-select">Outras bebidas</option>
-        <option value="8" class="botoes-select">Feijoada</option>
-      </select>
-    </div>  
+  <div id="o-que-voce-deseja">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a href="" class="nav-link dropdown-toggle botoes-select" data-toggle="dropdown">O que voce deseja?</a>
+        <div class="dropdown-menu fundo-drop">
+          <a href="" class="dropdown-item botoes-select">À la carte
+          </a>
+          <a href="#sobremesas" class="dropdown-item botoes-select">Sobremesas
+          </a>
+          <a href="#porçoes" class="dropdown-item botoes-select">Porções
+          </a>
+          <a href="#" class="dropdown-item botoes-select">Cervejas
+          </a>
+          <a href="#vinhos-e-espumantes" class="dropdown-item botoes-select">Vinhos e espumantes
+          </a>
+          <a href="#" class="dropdown-item botoes-select">Sucos
+          </a>
+          <a href="#" class="dropdown-item botoes-select">Destilados
+          </a>
+          <a href="#" class="dropdown-item botoes-select">Outras bebidas
+          </a>
+          <a href="#" class="dropdown-item botoes-select">Feijoada
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>   
     
       <section id="cardapio"><!--Inicio do cardapio-->
         <div id="À-la-carte">
@@ -125,11 +139,11 @@
         </div>
         
         <div class="cardapio">
-          <img src="/IMG/massa.svg" alt="" class="itens-cardapio">
+          <img src="/IMG/massa.svg" alt="" class="itens-cardapio" id="sobremesas">
         </div>
         <h1 id="titulo-cardapio"><strong>Sobremesas</strong></h1>
         <div class="cardapio">
-          <img src="/IMG/apfel.svg" alt="" class="itens-cardapio">
+          <img src="/IMG/apfel.svg" alt="" class="itens-cardapio" id="porçoes">
         </div>
         
         <div id="porções">
@@ -150,7 +164,7 @@
           </div>
 
           <div class="cardapio">
-            <img src="/IMG/Aipim-Frito.svg" alt="" class="itens-cardapio">
+            <img src="/IMG/Aipim-Frito.svg" alt="" class="itens-cardapio" id="vinhos-e-espumantes">
           </div>
         </div>
       <div id="Vinhos">

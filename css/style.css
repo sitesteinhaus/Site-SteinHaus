@@ -81,23 +81,39 @@ nav.navbar-transparente {
 	margin: 10px 10px 0 10px;
 	padding: 10px;
 	background-color: rgba(0, 0, 0, 0.904);
+	
 		
 }
 
 .botoes-select{
 	text-align: center;
 	color: #fff;
-	background-color: rgba(15, 15, 15, 0.9);
-}
-
-select{
+	background-color: rgba(22, 22, 22, 0.9);
 	font-family: 'Lora', serif;
 	font-size: larger;
 	font-style: italic;
 	padding: 0 60px 0 60px;
 	border: none;
-	appearance: none;
+}
+
+.fundo-drop{
+	border: 3px solid #fff;
 	background-color: rgba(22, 22, 22, 0.9);
+	margin: 9px 0 0 0;
+	padding: 0 0;
+}
+
+a:link.botoes-select{
+	background-color: rgba(22, 22, 22, 0.9);
+	color: #fff;
+}
+a:hover.botoes-select{
+	color: #fff;
+}
+a:active.botoes-select{	
+	color: #fff;
+}
+a:after.botoes-select{	
 	color: #fff;
 }
 
