@@ -1,9 +1,10 @@
 html, body, #home {
 	height: 100%;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
-HEAD
+
 body {
 	
 	background-attachment: fixed;
@@ -47,6 +48,24 @@ nav.navbar-transparente {
 	margin: 12px 15px;
 }
 
+.top {
+	margin-left: 250px;
+	position: fixed;
+	bottom: 20px;      
+	place-self: end;
+	padding: 3px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.904);
+	border-radius: 100px;
+	white-space: nowrap;
+	
+  }
+
+a:visited.top{
+	color: #fff;
+	text-decoration: none;
+}
+
 #fundo-cardapio{
 	background: url(/IMG/fundo-cardapio.svg);
 	margin-top: 80px;
@@ -74,6 +93,11 @@ nav.navbar-transparente {
 .altura-imagens{
 	padding: 5px;
 
+}
+
+#arrow {
+	overflow: hidden;
+	
 }
 
 #o-que-voce-deseja{
