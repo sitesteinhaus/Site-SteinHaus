@@ -21,6 +21,30 @@ h1{
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
+.carousel-item {
+	background-color: rgba(0, 0, 0, 0.425);
+	justify-content: center ;
+}
+
+.carousel-item {
+	height:50vh;
+	background-color: rgba(0, 0, 0, 0.425);
+	padding: 10px 0px 50px 0px;
+
+}
+.carousel-item p, .carousel-item h1, .carousel-item a  {
+	color: #fff;
+	text-align: center;
+	margin: 15px;
+}
+.carousel-item a {
+	display: flex;
+	justify-content: center ;
+	align-items: center;
+}
+.carousel-item p {
+	font-size: 3vh;
+}
 
 /* Barra de navegação
 -----------------------------*/
