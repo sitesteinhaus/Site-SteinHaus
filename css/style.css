@@ -26,7 +26,6 @@ h1{
 	background-color: rgba(0, 0, 0, 0.425);
 	justify-content: center ;
 }
-.carousel-inner
 
 .carousel-item {
 	height:50vh;
@@ -35,8 +34,8 @@ h1{
 
 }
 #conteudo-2 .carousel-item {
-	height:auto;
-	width: auto;
+	height:70%;
+	width: 70%;
 	background-color: rgba(0, 0, 0, 0.425);
 	padding: 10px 0px 50px 0px;
 	justify-content: center;
@@ -61,7 +60,6 @@ h1{
 }
 #conteudo-2 .carousel-item img {
 	width: 70%;
-	text-align: center;
 }
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
@@ -473,13 +471,13 @@ footer a {
 	}
 	#conteudo-1{
 		width: auto;
-		height: 1100px;
+		height: 110vh;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
 	#conteudo-2{
 		width: auto;
-		height: 1100px;
+		height: 100vh;
 		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
 		background-size: cover;
 		border-style: none;
