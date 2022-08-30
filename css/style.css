@@ -195,7 +195,11 @@ a:after.botoes-select{
     background-image: url(../IMG/fundo-papel.svg);
     text-align: center;
 }
-
+#fundo-chop h2 {
+	font-family: Lora;
+    font-style: italic;
+    color: black; 
+}
 #chop-fundo h1 {
     font-family: Lora;
     font-style: italic;
@@ -223,6 +227,12 @@ a:after.botoes-select{
 }
 #descrição h2 {
 	text-align: center;
+}
+#descrição p {
+	padding: 2vh;
+}
+#recomendados img {
+	width: 20vh;
 }
 
 
@@ -532,6 +542,10 @@ footer a {
 		width: 10vh;
 		margin: 3vh;
 	}
+	#chop-fundo h1 {
+		padding-top: 5vh;
+		font-size: 10vh;
+	}
 
 }
 
@@ -575,7 +589,14 @@ footer a {
 	.carousel-item a {
 		font-size: 3vh;
 	}
-	
+	.indices img {
+		width: 10vh;
+		margin: 4vh;
+	}
+	#chop-fundo h1 {
+		padding-top: 5vh;
+		font-size: 10vh;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
