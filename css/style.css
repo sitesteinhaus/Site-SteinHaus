@@ -14,6 +14,7 @@ h1{
 }
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 /* Altera carousel
@@ -72,6 +73,7 @@ h1{
 nav.navbar-transparente {
 	padding: 15px 0px;
 	background: rgba(0, 0, 0, 0.9);
+
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -145,6 +147,10 @@ a:visited.top{
 	background-color: rgba(0, 0, 0, 0.904);
 	margin-top: 100px;
 }
+
+#fundo-cardapio{
+	background-image: url(../IMG/fundo-papel.svg)
+}
 .botoes-select{
 	text-align: center;
 	color: #fff;
@@ -180,6 +186,49 @@ a:after.botoes-select{
 /*  FIM Cardápio
 -----------------------------*/
 
+/* Inicio dos Chops
+-----------------------------*/
+#chop-fundo {
+	display: flex;
+	flex-direction: row;
+    padding-top: 90px;
+    background-image: url(../IMG/fundo-papel.svg);
+    text-align: center;
+}
+
+#chop-fundo h1 {
+    font-family: Lora;
+    font-style: italic;
+    color: black; 
+}
+
+#chop-fundo p {
+    font-family: Lora;
+    color: black; 
+}
+#chop-fundo .container {
+	justify-content: space-around;
+
+}
+#chop-fundo .container img {
+	width: 10vh;
+}
+
+#descrição {
+	padding: 2vh;
+	background-color: black;
+}
+#descrição p, h2 {
+	color: #fff;
+}
+#descrição h2 {
+	text-align: center;
+}
+
+
+
+/*  FIM Chops
+-----------------------------*/
 /*   Botões
 -----------------------------------------------------------------------------------------------------------------*/
 
@@ -237,23 +286,6 @@ footer a {
 }
 
 /*   FIM Footer
------------------------------*/
-/* pagina chopps
------------------------------*/
-
-#fundo-Chopps{
-
-}
-#conteudo-chopps{
-	
-}
-
-
-
-
-
-
-/* FIM pagina chopps
 -----------------------------*/
 
 /* Media queries 
@@ -339,7 +371,10 @@ footer a {
 		min-width: 305px;
 		margin: 10px 5px 0px 5px;
 	}
-	
+	.indices img {
+		width: 10vh;
+		margin: 2vh;
+	}
 
 }
 
@@ -404,6 +439,10 @@ footer a {
 		max-width: 560px;
 		margin: 10px 5px 0px 5px;
 	}
+	.indices img {
+		width: 10vh;
+		margin: 3vh;
+	}
 }
 
 
@@ -436,6 +475,10 @@ footer a {
 		max-width: 767px;
 		margin: 10px 5px 0px 5px;
 	}
+	.indices img {
+		width: 10vh;
+		margin: 5vh;
+	}
 
 	
 }
@@ -443,6 +486,9 @@ footer a {
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px)  {
+	.navbar {
+		max-height: 90px;
+	}
 	#conteudo-2 .carousel-item h1 {
 		font-size: 12vh;
 		
@@ -477,6 +523,14 @@ footer a {
 
 	.carousel-item p {
 		font-size: 5vh;
+	}
+
+	#chop-fundo figure img {
+		width: 50vh;
+	}
+	.indices img {
+		width: 10vh;
+		margin: 3vh;
 	}
 
 }
