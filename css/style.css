@@ -14,7 +14,6 @@ h1{
 }
 
 
-
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 /* Altera carousel
@@ -238,7 +237,52 @@ a:after.botoes-select{
 
 
 /*  FIM Chops
------------------------------*/
+-------------------------------------------------------------------------------------------------------*/
+/*  inicio a cervejaria
+-------------------------------------------------------------------------------------------------------*/
+#acervejaria, #seguinte, #conheca  {
+		background-color: black;
+	}
+#acervejaria img {
+	margin-top: 90px;
+	width: 100vh;
+	size: cover;
+}
+#seguinte img {
+	position: relative;
+	size: cover;
+	max-height: 50vh;
+}
+
+#conheca {
+	text-align: center;
+}
+#conheca a {
+	text-decoration: none;
+	color: #000;
+}
+#conheca button {
+	margin: -10vh;
+
+}
+
+
+
+
+#conteudo p, #conheca p{
+	font-family: Lora;
+	padding: 2vh;
+	color: #fff;
+}
+
+#conteudo h1 {
+	font-family: Lora;
+	color: #fff;
+	
+}
+
+/*  FIM a cervejaria
+-------------------------------------------------------------------------------------------------------*/
 /*   Botões
 -----------------------------------------------------------------------------------------------------------------*/
 
@@ -546,6 +590,26 @@ footer a {
 		padding-top: 5vh;
 		font-size: 10vh;
 	}
+	#acervejaria img {
+		margin-top: 90px;
+		max-width: 70vh;
+		size: cover;
+	}
+	#seguinte img {
+		max-width: 70vh;
+		size: cover;
+	}
+	#seguinte p {
+		margin-top: 15vh;
+	}
+	#conteudo h1 {
+		font-family: Lora;
+		color: #fff;
+		margin-top: 20vh;	
+	}
+	#conteudo {
+		justify-content: center ;
+	}
 
 }
 
@@ -596,6 +660,23 @@ footer a {
 	#chop-fundo h1 {
 		padding-top: 5vh;
 		font-size: 10vh;
+	}
+	#acervejaria img {
+		margin-top: 90px;
+		max-width: 90vh;
+		size: cover;
+	}
+	#seguinte img {
+		max-width: 100vh;
+		max-height: 60vh;
+		size: cover;
+	}
+	#conteudo h1 {
+		margin-top: 26vh;
+	}
+
+	#seguinte p {
+		margin-top: 25vh;
 	}
 }
 
