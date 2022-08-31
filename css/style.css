@@ -186,6 +186,46 @@ a:after.botoes-select{
 /*  FIM Cardápio
 -----------------------------*/
 
+/* Inicio dos botoes dos Chops
+-----------------------------*/
+.button-chopp{
+	padding-bottom: 20px;
+	text-align: center;
+	margin: 10px;
+	margin-top: 90px;
+	background-color: rgba(0, 0, 0, 0.26);
+	border-radius: 30px;
+}
+.imagen-page-chopps{
+
+}
+.titulo-page-chopps{
+	color: #000;
+}
+.conteudo-page-chopps{
+	color: #000;
+	text-align: start;
+	padding: 9px;
+}
+.link-page-chopps{
+	padding: 7px 40px 7px 40px;
+	border-radius: 80px;
+	background-color: #000;
+}
+a.link-page-chopps{
+	text-decoration: none;
+	color: #fff;
+	font-size: large;
+}
+
+
+
+
+
+
+/*  FIM dos botoes dos Chops
+-----------------------------*/
+
 /* Inicio dos Chops
 -----------------------------*/
 #chop-fundo {
