@@ -426,7 +426,7 @@ footer a {
 		margin: 10px 5px 0px 5px;
 	}
 	.indices img {
-		width: 10vh;
+		width: 8vh;
 		margin: 2vh;
 	}
 
@@ -462,9 +462,18 @@ footer a {
 		min-width: 360px;
 		margin: 10px 5px 0px 5px;
 	}
+	.indices img {
+		width: 7vh;
+		margin: 2vh;
+	}
 	
 }
-
+@media (min-width: 400px) {
+	.indices img {
+		width: 6vh;
+		margin: 2vh;
+	}
+}
 @media (min-width: 425px)  {
 	#conteudo-1{
 		width: auto;
