@@ -3,45 +3,25 @@ html, body, #home {
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 }
-
 body {
 	background-attachment: fixed;
 	font-family: 'Lora', serif;
 }
-
 h1{
 	text-align: center;
 }
-
-
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
 /* Altera carousel
 ---------------------------------------------------------------------------------------------------------*/
-#conteudo-2 .carousel-item, #conteudo-3 .carousel-item {
-	background-color: rgba(0, 0, 0, 0.550);
-	justify-content: center ;
-}
 .carousel-item {
 	background-color: rgba(0, 0, 0, 0.425);
 	justify-content: center ;
 }
-
 .carousel-item {
 	height:50vh;
 	background-color: rgba(0, 0, 0, 0.425);
 	padding: 10px 0px 50px 0px;
-
 }
-#conteudo-2 .carousel-item {
-	height:70%;
-	width: 70%;
-	background-color: rgba(0, 0, 0, 0.425);
-	padding: 10px 0px 50px 0px;
-	justify-content: center;
-
-}
-
 .carousel-item p, .carousel-item h1, .carousel-item a  {
 	color: #fff;
 	text-align: center;
@@ -55,244 +35,45 @@ h1{
 .carousel-item p {
 	font-size: 3vh;
 }
-#conteudo-2 .carousel-item h1 {
-	text-align: bottom;
-}
-#conteudo-2 .carousel-item img {
-	width: 70%;
-}
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
 }
 /* FIM Altera carousel
 -----------------------------*/
-
 /* Barra de navegação
 -----------------------------------------------------------------------------------------------------------------*/
 nav.navbar-transparente {
 	padding: 15px 0px;
 	background: rgba(0, 0, 0, 0.9);
-
 }
-
 .navbar-light .navbar-nav .nav-link {
 	color: white;
 }
-
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #9bf0e1;
 }
-
 .navbar-light .navbar-toggler {
     color: rgba(255,255,255,.5);
     /*border-color: rgba(255,255,255,0.5);*/
 }
-
 .divisor {
 	width: 1px;
 	background: white;
 	margin: 12px 15px;
 }
-
 a:visited.top{
 	color: #fff;
 	text-decoration: none;
 }
-
 #nav-principal{
 	padding: 20px;
 	font-family: 'Lora', serif;
 }
-
 #nav-principal a:hover {
 	color: #e8b544;
-
 }
 /* FIM Barra de navegação
 -----------------------------*/
-
-/* Cardápio
------------------------------------------------------------------------------------------------------------------*/
-.top {
-	margin-left: 250px;
-	position: fixed;
-	bottom: 20px;      
-	place-self: end;
-	padding: 3px;
-	color: #fff;
-	background: rgba(0, 0, 0, 0.904);
-	border-radius: 100px;
-	white-space: nowrap;
-	
-  }
-  
-#cardapio h1 {
-	font-style: italic ;
-	color: #fff;
-	font-size: 2em;
-	margin-top: 5px;
-	background-color: rgba(0,0,0,0.90);
-	background-clip: content-box;
-		
-}
-
-#titulo-cardapio{
-	padding: 10px;
-}
-#o-que-voce-deseja{
-	text-align: center;
-	margin: 10px 10px 0 10px;
-	padding: 10px;
-	background-color: rgba(0, 0, 0, 0.904);
-	margin-top: 100px;
-}
-
-#fundo-cardapio{
-	background-image: url(../IMG/fundo-papel.svg)
-}
-.botoes-select{
-	text-align: center;
-	color: #fff;
-	background-color: rgba(22, 22, 22, 0.9);
-	font-family: 'Lora', serif;
-	font-size: larger;
-	font-style: italic;
-	padding: 0 60px 0 60px;
-	border: none;
-}
-
-.fundo-drop{
-	border: 3px solid #fff;
-	background-color: rgba(22, 22, 22, 0.9);
-	margin: 9px 0 0 0;
-	padding: 0 0;
-}
-
-a:link.botoes-select{
-	background-color: rgba(22, 22, 22, 0.9);
-	color: #fff;
-}
-a:hover.botoes-select{
-	color: #fff;
-}
-a:active.botoes-select{	
-	color: #fff;
-}
-a:after.botoes-select{	
-	color: #fff;
-}
-
-/*  FIM Cardápio
------------------------------*/
-
-/* Inicio dos botoes dos Chops
------------------------------*/
-.button-chopp1{
-	padding-bottom: 20px;
-	text-align: center;
-	margin: 10px;
-	margin-top: 90px;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 30px;
-}
-.button-chopp{
-	padding-bottom: 20px;
-	text-align: center;
-	margin: 10px;
-	margin-top: 20px;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 30px;
-}
-.imagen-page-chopps{
-	max-width: 200px;
-	margin-right: 18px;
-	
-}
-.imagen-page-chopps1{
-	max-width: 280px;
-	margin-right: 15px;
-	
-}
-.titulo-page-chopps{
-	color: #000;
-}
-.conteudo-page-chopps{
-	color: #000;
-	text-align: start;
-	padding: 9px;
-}
-.link-page-chopps{
-	padding: 7px 40px 7px 40px;
-	border-radius: 80px;
-	background-color: #000;
-}
-a.link-page-chopps{
-	text-decoration: none;
-	color: #fff;
-	font-size: large;
-}
-
-
-
-
-
-
-/*  FIM dos botoes dos Chops
------------------------------*/
-
-/* Inicio dos Chops
------------------------------*/
-#chop-fundo {
-	display: flex;
-	flex-direction: row;
-    padding-top: 90px;
-    background-image: url(../IMG/fundo-papel.svg);
-    text-align: center;
-}
-#fundo-chop h2 {
-	font-family: Lora;
-    font-style: italic;
-    color: black; 
-}
-#chop-fundo h1 {
-    font-family: Lora;
-    font-style: italic;
-    color: black; 
-}
-
-#chop-fundo p {
-    font-family: Lora;
-    color: black; 
-}
-#chop-fundo .container {
-	justify-content: space-around;
-
-}
-#chop-fundo .container img {
-	width: 10vh;
-}
-
-#descrição {
-	padding: 2vh;
-	background-color: black;
-}
-#descrição p, h2 {
-	color: #fff;
-}
-#descrição h2 {
-	text-align: center;
-}
-#descrição p {
-	padding: 2vh;
-}
-#recomendados img {
-	width: 20vh;
-}
-
-
-
-/*  FIM Chops
--------------------------------------------------------------------------------------------------------*/
 /*  inicio a cervejaria
 -------------------------------------------------------------------------------------------------------*/
 #acervejaria, #seguinte, #conheca  {
@@ -308,7 +89,6 @@ a.link-page-chopps{
 	size: cover;
 	max-height: 50vh;
 }
-
 #conheca {
 	text-align: center;
 }
@@ -318,33 +98,23 @@ a.link-page-chopps{
 }
 #conheca button {
 	margin: -10vh;
-
 }
-
-
-
-
 #conteudo p, #conheca p{
 	font-family: Lora;
 	padding: 2vh;
 	color: #fff;
 }
-
 #conteudo h1 {
 	font-family: Lora;
-	color: #fff;
-	
+	color: #fff;	
 }
-
 /*  FIM a cervejaria
 -------------------------------------------------------------------------------------------------------*/
 /*   Botões
 -----------------------------------------------------------------------------------------------------------------*/
-
 .btn:hover {
 	transform: scale(1.1);
 }
-
 .btn{
 	margin-top: 85px;
 }
@@ -354,7 +124,6 @@ a .btn{
 }
 /*   FIM Botões
 -----------------------------*/
-
 /*    Footer
 -----------------------------------------------------------------------------------------------------------------*/
 a.text-dark {
@@ -362,7 +131,6 @@ a.text-dark {
     padding: 1px ;
     border-radius: 20px;
 }
-
 footer {
 	background-color: #000;
 	padding-top: 2vh;
@@ -377,7 +145,6 @@ footer p {
 footer i{
 	color: #fff;
 }
-
 footer h2 {
 	color: #fff;
 	font-style: bold italic;
@@ -393,37 +160,16 @@ footer a {
 	text-decoration: none;
 	color: #fff;
 }
-
 /*   FIM Footer
 -----------------------------*/
-
 /* Media queries 
 ----------------------------------------------------------------------------------------------------*/  
-
 @media (max-width: 320px) {
 	#conteudo-1{
 		width: 320px;
 		height: 450px;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
-	}
-	#conteudo-2{
-		width: 320px;
-		height: 450px;
-		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
-		background-size: cover;
-	}
-	#conteudo-3{
-		width: 320px;
-		height: 550px;
-		background-image: url('../IMG/fundo3.svg');
-		background-position: center center;
-		background-size: cover;
-	}
-	
-	#cardapio img {
-		max-width: 305px;
-		margin: 10px 5px 0px 5px;
 	}
 	footer img {
 		max-width: 50px;
@@ -432,22 +178,11 @@ footer a {
 	footer h2 {
 		font-size: large;
 	}
-
 }
-
 @media (min-width: 320px){
-
 	#logo{
 		width: 150px;
 		padding-left: 15px;
-	}
-
-	#scroll-button {
-		position: fixed;
-		right: 170px;
-		top: 50%;
-		width: 8em;
-		
 	}
 	#conteudo-1{
 		width: auto;
@@ -455,40 +190,13 @@ footer a {
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
-
-	#conteudo-2{
-		width: auto;
-		height: 500px;
-		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
-		background-size: cover;
-	}
-	#conteudo-3{
-		width: auto;
-		height: 500px;
-		background-image: url('../IMG/fundo3.svg');
-		background-size: cover;
-	}
-
-
 	footer img {
 		max-width: 50px;
 		margin-top: 2vh;
 	}
-	#cardapio img {
-		width: 90%;
-		max-width: 374,98px;
-		min-width: 305px;
-		margin: 10px 5px 0px 5px;
-	}
-	.indices img {
-		width: 8vh;
-		margin: 2vh;
-	}
-
 	.gif img {
 		text-align: center;
 	}
-
 }
 
 @media (min-width: 375px) {
@@ -499,39 +207,6 @@ footer a {
 		background-size: cover;
 		background-position: center center;
 	}
-	#conteudo-2{
-		width: auto;
-		height: 550px;
-		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
-		background-size: cover;
-		background-position: center center;
-		
-	}
-	#conteudo-3{
-		width: auto;
-		height: 550px;
-		background-image: url('../IMG/fundo3.svg');
-		background-size: cover;
-		background-position: center center;
-		
-	}
-	#cardapio img {
-		width: 90%;
-		max-width: 425px;
-		min-width: 360px;
-		margin: 10px 5px 0px 5px;
-	}
-	.indices img {
-		width: 7vh;
-		margin: 2vh;
-	}
-	
-}
-@media (min-width: 400px) {
-	.indices img {
-		width: 6vh;
-		margin: 2vh;
-	}
 }
 @media (min-width: 425px)  {
 	#conteudo-1{
@@ -541,33 +216,7 @@ footer a {
 		background-size: cover;
 		background-position: center center;
 	}
-	#conteudo-2{
-		width: auto;
-		height: 550px;
-		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
-		background-size: cover;
-		background-position: center center;
-	}
-	#conteudo-3{
-		width: auto;
-		height: 550px;
-		background-image: url('../IMG/fundo3.svg');
-		background-size: cover;
-		background-position: center center;
-	}
-	#cardapio img {
-		width: 90%;
-		min-width: 415px;
-		max-width: 560px;
-		margin: 10px 5px 0px 5px;
-	}
-	.indices img {
-		width: 10vh;
-		margin: 3vh;
-	}
 }
-
-
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 	#logo{
@@ -579,42 +228,12 @@ footer a {
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
-	#conteudo-2{
-		width: auto;
-		height: 733px;
-		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
-		background-size: cover;
-	}
-	#conteudo-3{
-		width: auto;
-		height: 733px;
-		background-image: url('../IMG/fundo3.svg');
-		background-size: cover;
-	}
-	#cardapio img {
-		width: 90%;
-		min-width: 560px;
-		max-width: 767px;
-		margin: 10px 5px 0px 5px;
-	}
-	.indices img {
-		width: 10vh;
-		margin: 5vh;
-	}
-
-	
 }
-
-
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px)  {
 	.navbar {
 		max-height: 90px;
 	}
-	#conteudo-2 .carousel-item h1 {
-		font-size: 12vh;
-		
-		}
 	#conteudo-1{
 		width: auto;
 		height: 733px;
@@ -622,41 +241,8 @@ footer a {
 		background-size: cover;
 		background-position: center center;
 	}
-	#conteudo-2{
-		width: auto;
-		height: 733px;
-		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
-		background-size: cover;
-		background-position: center center;
-	}
-	#conteudo-3{
-		width: auto;
-		height: 733px;
-		background-image: url('../IMG/fundo3.svg');
-		background-size: cover;
-		background-position: center center;
-	}
-	#cardapio img {
-		width: 90%;
-		min-width: 750px;
-		max-width: 991px;
-		margin: 10px 5px 0px 5px;
-	}
-
 	.carousel-item p {
 		font-size: 5vh;
-	}
-
-	#chop-fundo figure img {
-		width: 50vh;
-	}
-	.indices img {
-		width: 10vh;
-		margin: 3vh;
-	}
-	#chop-fundo h1 {
-		padding-top: 5vh;
-		font-size: 10vh;
 	}
 	#acervejaria img {
 		margin-top: 90px;
@@ -681,39 +267,18 @@ footer a {
 	.mt-1 {
 		margin-top: -10vh !important;
 	}
-
 }
-
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 	#logo{
 		width: 200px;
 	}
 	#conteudo-1{
-		width: auto;
-		height: 110vh;
-		background-image: url('../IMG/fundo1-1440.svg');
-		background-size: cover;
-	}
-	#conteudo-2{
+		padding-top: 20vh;
 		width: auto;
 		height: 100vh;
-		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
+		background-image:    url('../IMG/fundo1-1440.svg');
 		background-size: cover;
-		border-style: none;
-	}
-	#conteudo-3{
-		width: auto;
-		height: 1100px;
-		background-image: url('../IMG/fundo3.svg');
-		background-size: cover;
-		border-style: none;
-	}
-	#cardapio img {
-		width: 90%;
-		min-width: 985px;
-		max-width: 1180px;
-		margin: 10px 5px 0px 5px;
 	}
 	.carousel-item h1 {
 		font-size: 8vh;
@@ -723,14 +288,6 @@ footer a {
 	}
 	.carousel-item a {
 		font-size: 3vh;
-	}
-	.indices img {
-		width: 10vh;
-		margin: 4vh;
-	}
-	#chop-fundo h1 {
-		padding-top: 5vh;
-		font-size: 10vh;
 	}
 	#acervejaria img {
 		margin-top: 90px;
@@ -745,12 +302,10 @@ footer a {
 	#conteudo h1 {
 		margin-top: 26vh;
 	}
-
 	#seguinte p {
 		margin-top: 25vh;
 	}
 }
-
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 	#logo{
@@ -762,24 +317,11 @@ footer a {
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
-	#conteudo-2{
-		width: auto;
-		height: 1100px;
-		background-image: url('../IMG/Fundo-Nossos-Chopps.svg');
-		background-size: cover;
-	}
-	#conteudo-3{
-		width: auto;
-		height: 1100px;
-		background-image: url('../IMG/fundo3.svg');
-		background-size: cover;
-	}
-	#cardapio img {
-		width: 90%;
-		min-width: 1180px;
-		max-width: 1440px;
-		margin: 10px 5px 0px 5px;
-	}
 }
-
-
+#mapa {
+	padding-top: 20vh;
+	background-color: #000;
+}
+.mapa {
+	align-self: center;
+}
