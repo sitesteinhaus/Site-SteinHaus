@@ -166,6 +166,8 @@ footer a {
 ----------------------------------------------------------------------------------------------------*/  
 @media (max-width: 320px) {
 	#conteudo-1{
+		padding-top: 20vh;
+		padding-bottom: 10vh;
 		width: 320px;
 		height: 450px;
 		background-image: url('../IMG/fundo1-1440.svg');
@@ -178,6 +180,11 @@ footer a {
 	footer h2 {
 		font-size: large;
 	}
+	#logo{
+		width: 125px;
+		padding-left: 15px;
+	}
+
 }
 @media (min-width: 320px){
 	#logo{
