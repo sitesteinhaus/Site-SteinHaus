@@ -185,6 +185,8 @@ footer a {
 		padding-left: 15px;
 	}
 	#conteudo-1{
+		padding-top: 20vh;
+		padding-bottom: 10vh;
 		width: auto;
 		height: 500px;
 		background-image: url('../IMG/fundo1-1440.svg');
@@ -201,6 +203,8 @@ footer a {
 
 @media (min-width: 375px) {
 	#conteudo-1{
+		padding-top: 20vh;
+		padding-bottom: 10vh;
 		width: auto;
 		height: 550px;
 		background-image: url('../IMG/fundo1-1440.svg');
@@ -235,14 +239,16 @@ footer a {
 		max-height: 90px;
 	}
 	#conteudo-1{
+		padding-top: 18vh;
 		width: auto;
-		height: 733px;
+		height: 100vh;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
+		background-repeat: no-repeat;
 		background-position: center center;
 	}
 	.carousel-item p {
-		font-size: 5vh;
+		font-size: 4vh;
 	}
 	#acervejaria img {
 		margin-top: 90px;
@@ -313,7 +319,7 @@ footer a {
 	}
 	#conteudo-1{
 		width: auto;
-		height: 1100px;
+		height: 100vh;
 		background-image: url('../IMG/fundo1-1440.svg');
 		background-size: cover;
 	}
